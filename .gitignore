@@ -38,3 +38,7 @@ Thumbs.db
 # *.h5
 # *.model
 # models/
+
+echo *.csv >> .gitignore
+echo artifacts/*/data_ingestion/ingested/ >> .gitignore
+echo artifacts/*/data_ingestion/feature_store/ >> .gitignore
