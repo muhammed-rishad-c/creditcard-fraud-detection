@@ -1,0 +1,12 @@
+ARTIFACT_DIR:str="artifacts"
+PIPELINE_NAME:str="creditfraud"
+
+DATA_INGESTION_DIR:str="data_ingestion"
+DATA_INGESTION_FEATURE_DIR:str="feature_store"
+DATA_INGESTION_INGESTED_DIR:str="ingested"
+DATA_INGESTION_TRAIN_FILENAME:str="train.csv"
+DATA_INGESTION_TEST_FILENAME:str="test.csv"
+DATA_INGESTION_RAW_FILENAME:str="raw_data.csv"
+TRAIN_TEST_SPLIT_RATIO:float=0.2
+
+
