@@ -1,0 +1,4 @@
+[ 2025-09-01 16:43:47,029 ] 65 root - INFO - data ingestion initiated
+[ 2025-09-01 16:43:47,029 ] 16 root - INFO - importing data from kaggle is started
+[ 2025-09-01 16:44:16,413 ] 69 root - INFO - train test split is done
+[ 2025-09-01 16:44:16,413 ] 72 root - INFO - train file path and test file path are into the artifact

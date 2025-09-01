@@ -25,3 +25,15 @@ class DataIngestionConfig:
                     constant.DATA_INGESTION_INGESTED_DIR,
                     constant.DATA_INGESTION_TEST_FILENAME)
         self.data_ingestion_train_test_split_ratio:float=constant.TRAIN_TEST_SPLIT_RATIO
+        
+class DataTransformationConfig:
+    def __init__(self,train_pipeline_config:TrainingPipelineConfig):
+        self.data_transformation_dir:str=os.path.join(train_pipeline_config.artifacts_dir,
+                    constant.DATA_TRANSFORMATION_DIR)
+        self.data_transformation_train_filepath:str=os.path.join(self.data_transformation_dir,
+                    constant.DATA_TRANSFORMATION_TRAIN_FILEPATH)
+        self.data_transformation_test_filepath:str=os.path.join(self.data_transformation_dir,
+                    constant.DATA_TRANSFORMATION_TEST_FILEPATH)
+        
+        
+        
